@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="aa.css" />
+  </head>
+  <body>
+    <table class="dd">
+      <tr>
+        <td>
+          <h1 style="background-color: green">Gread calcluating system</h1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="container">
+            <div>
+              <div class="book1">
+                <label>Computer</label>
+                <input id="bookOne" type="number" placeholder="Marks" />
+              </div>
+
+              <div class="book2">
+                <label>English</label>
+                <input id="bookTwo" type="number" placeholder="Marks" />
+              </div>
+
+              <div class="book3">
+                <label>Math</label>
+                <input id="bookThree" type="number" placeholder="Marks" />
+              </div>
+
+              <div class="book3">
+                <label>science</label>
+                <input id="bookFour" type="number" placeholder="Marks" />
+              </div>
+
+              <div class="book5">
+                <label>Social science</label>
+                <input id="bookFive" type="number" placeholder="Marks" />
+              </div>
+
+              <div>
+                <button onclick="calculate()">Calculator</button>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="cc">
+            <table>
+              <tr>
+                <td>Total Marks:</td>
+                <td>500</td>
+              </tr>
+
+              <tr>
+                <td>Obtained Marks:</td>
+                <td id="obtain"></td>
+              </tr>
+
+              <tr>
+                <td>Percentage:</td>
+                <td id="per"></td>
+              </tr>
+
+              <tr>
+                <td>Grade:</td>
+                <td id="grade"></td>
+              </tr>
+
+              <tr>
+                <td>Remarks:</td>
+                <td id="remarks"></td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <script src="grade.js" async defer></script>
+  </body>
+</html>
